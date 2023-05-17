@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* header css start here */
+.hd-container {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  height: 44px;
+  width: 100%;
+  position: fixed;
+}
+.nav-container {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.list-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  padding-bottom: 5px;
+}
+.list-container ul li a {
+  text-decoration: none;
+  color: #f5f5f7;
+  font-size: 12px;
+  opacity: 0.8;
+
+  font-weight: 400;
+}
+.list-container ul li {
+  list-style: none;
+}
+.apple-logo img,
+.sr-ct-logo img {
+  width: 14px;
+  opacity: 0.8;
+}
+.apple-logo,
+.sr-ct-logo {
+  display: flex;
+  align-items: center;
+}
+.srch {
+  margin-right: 40px;
+}
+.list-container ul li a:hover {
+  opacity: 1;
+}
+.apple-logo img:hover,
+.sr-ct-logo img:hover {
+  opacity: 1;
+}
+/* header section css end here */
+/* main first section will and ryan css start here */
+.first-container {
+  background-image: url(../image/pic/spirited_hero__dlcfsduexsya_large_2x.jpg);
+
+  height: 610px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  display: block;
+}
+.will-ryan {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(169, 251, 169);
+  padding-top: 100px;
+  font-size: 25px;
+}
+/* main second section apple shoping css start here */
+.second-container {
+  background-image: url(../image/pic/hero_ase2022__c7wqoag7p94y_mediumshort_2x.jpg);
+  height: 585px;
+  background-position: center;
+  background-size: contain;
+
+  height: 624px;
+  background-repeat: no-repeat;
+  background-color: black;
+  margin-bottom: 10px;
+}
+.internal-text {
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+}
+.internal-text h2 {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+.internal-text h3 {
+  color: #6e6e73;
+  max-width: 573px;
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+  margin: 6px auto 0 auto;
+}
+.internal-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 21px;
+  line-height: 1.381;
+  font-weight: 400;
+}
+.internal-link a {
+  text-decoration: none;
+  color: #2997ff;
+}
+.internal-link a:hover {
+  text-decoration: underline;
+}
+.internal-link a:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  margin-left: 10px;
+}
+.unit-link {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  color: black;
+}
+/* third section Iphone 14 css start here */
+.third-container {
+  background-image: url(../image/pic/hero_iphone14__fjmsqstr1ceq_large_2x.jpg);
+  height: 585px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.iphone-text {
+  padding-top: 60px;
+}
+.iphone-text h2 {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+.iphone-text h3 {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+  padding-top: 10px;
+}
+.learn-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.learn-link li {
+  list-style: none;
+  margin-right: 10px;
+}
+.learn-link li a {
+  font-size: 21px;
+  line-height: 1.381;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  color: #2997ff;
+  text-decoration: none;
+}
+.learn-link li a::after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  margin-left: 10px;
+}
+.learn-link li a:hover {
+  text-decoration: underline;
+}
+/* fourth section start here */
+.forth-container {
+  background-image: url(../image/pic/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg);
+  height: 585px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* fifth section start here */
+.fifth-container,
+.six-container,
+.seven-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+/* backround image css start here */
+.bg-set {
+  width: 48.5%;
+  height: 585px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.fifth-internal-one {
+  background-image: url(../image/pic/promo_ipad__fioegapg12qi_large.jpg);
+  color: black;
+}
+.fifth-internal-two .logo-wrapper {
+  width: 30px;
+  height: 37px;
+}
+.fifth-internal-two {
+  background-image: url(../image/pic/promo_airpods_holiday__fqg7rt8b4vma_large_2x.jpg);
+  color: black;
+}
+.text-link h4 {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  margin: 53px 0 10px;
+}
+.text-link h5 {
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: 0.016em;
+  margin: 0 auto;
+  max-width: 290px;
+}
+.fifth-internal-two .text-link h4 {
+  margin-top: 0;
+}
+.logo-wrapper {
+  padding-top: 53px;
+  padding-bottom: 5px;
+  width: 137px;
+  height: 57px;
+  margin: 0 auto;
+}
+/* six section css */
+.six-internal-one {
+  background-image: url(../image/pic/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg);
+  color: white;
+}
+.six-internal-two {
+  background-image: url(../image/pic/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+  color: black;
+}
+/* seven section css */
+.seven-internal-one {
+  background-image: url(../image/pic/promo_ipadpro__ch217v9v7no2_large.jpg);
+  color: white;
+}
+.seven-internal-two {
+  background-image: url(../image/pic/tile__cauwwcyyn9hy_large.jpg);
+  color: black;
+}
+
+/* footer css start here */
+footer {
+  background-color: #f5f5f7;
+}
+.footer-item-container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.footer-text-container a {
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+}
+.footer-text-container a:hover {
+  text-decoration: underline;
+}
+.footer-text-container {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c3c3c9;
+  line-height: 17px;
+}
+.footer-text-container p {
+  padding-bottom: 10px;
+}
+/* footer link list css start here */
+.footer-link-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.footer-link-container ul {
+  margin-bottom: 20px;
+}
+.footer-link-container ul li,
+.footer-link-container h4 {
+  margin-bottom: 10px;
+  list-style: none;
+}
+.footer-link-container ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+.footer-link-container ul li a:hover {
+  text-decoration: underline;
+}
+.ft-moreway {
+  margin: 10px 0;
+}
+.ft-moreway a {
+  text-decoration: none;
+  color: #2997ff;
+}
+.ft-moreway a:hover {
+  text-decoration: underline;
+}
+.ft-copy-address {
+  display: flex;
+  /* justify-content: space-between; */
+  border-top: 1px solid #c3c3c9;
+  padding: 10px 0;
+}
+.ft-privacy-link {
+  display: flex;
+  margin: 0 200px 0 30px;
+  list-style: none;
+}
+.ft-privacy-link li {
+  padding: 0 10px;
+  border-right: 1px solid #ccc;
+}
+.ft-privacy-link li:last-child {
+  border-right: 0;
+}
+.ft-united-link a,
+.ft-privacy-link a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+.ft-united-link a:hover,
+.ft-privacy-link a:hover {
+  text-decoration: underline;
+}
+.ft-united-link {
+  list-style: none;
+}
+/* slide css start here */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Caption text */
+.text1 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@keyframes fade {
+  from {
+    transform: translateX(-30%);
+    /* opacity: 0.4; */
+  }
+  to {
+    transform: translateX(20%);
+    /* opacity: 1; */
+  }
+}
